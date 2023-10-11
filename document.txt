@@ -1,0 +1,10 @@
+dotnet --info
+dotnet new sln
+dotnet new webapi -o API
+
+cd API/
+	dotnet run
+	http://localhost:5001/swagger/index.html
+
+
+
